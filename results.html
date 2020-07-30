@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html >
+<html lang="en">
+	<!--
+		Himalayan Dental Clinic and Training Center
+         Author:Rashmi Aryal   
+         Date:7/26/2020
+		 Filename: Results.htm
+         
+		 Supporting Files: free dentistry.jpg, main.css
+      -->
+      <meta charset="utf-8" />
+	  
+      <title>Results</title>
+	  
+      <link href="Assets/Styles/main.css" rel="stylesheet" type="text/css">
+      
+   </head>
+   <body>
+		<header>
+			<img src="Assets/Images/freedentistry.jpg" alt="Healthy Mouth Happy Life"  width="800" height="550"/>
+		</header>
+		
+		<nav class="horizontal">
+			<ul>
+				<li><a href="Index.html">Home</a></li>
+				<li><a href="AboutUs.htm">About Us</a></li>
+				<li><a href="Staff.html">Our Staffs</a></li>
+				<li><a href="events.htm">Events</a></li>
+				<li><a href="ContactUs.htm">Contact Us</a></li>
+			</ul>	
+		</nav>
+			<article id="contentstart">
+            <h1>Your form has been submitted</h1>
+               <h2>You entered the following data:</h2>
+         
+               <script>
+                   var formData = location.search;
+                   formData = formData.substring(1, formData.length);
+                   while (formData.indexOf("+") !== -1) {
+                      formData = formData.replace("+", " ");
+                   }
+                   formData = decodeURIComponent(formData);
+                   var formArray = formData.split("&");
+                   for (var i = 0; i < formArray.length; i = i + 1) {
+                      document.write("<p>" + formArray[i] + "</p>");
+                   }
+               </script>
+         </article>
+
+			
+	             <section id="main">
+		
+	</section>
+	
+		<footer>
+			<address>
+				Himalayan Dental Clinic and Training Center&#183;
+				4601 Rainbow Trout &#183;
+				Saint Louis, MO 65203 &#183;
+				(314) 555 - 3737 &#183;
+				Himalayan@trainingschool.com
+            </address>
+        </footer>
+				
+	</body>
+
+
+
+
+
+
+
+
+
+</html>

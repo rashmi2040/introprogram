@@ -1,0 +1,56 @@
+/*
+	  Himalayan dental clinic and training center
+
+   Author:Rashmi Aryal   
+   Date: 7/26/2020
+   Filename: sstyle.css
+	
+*/
+
+table {
+	display: block;
+	width: 400px;
+	float: none;
+	background-color: ivory;
+	border: 1px solid black;
+	margin: 5px 0px 20px 20px;
+	border-collapse: collapse
+
+	}
+	
+td {
+	border: 1px solid black;
+	vertical-align: top;
+	padding: 5px;
+	background: white;
+}
+th {
+	border: 1px solid black;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h1 {
+   font-weight: bold;
+   font-size:16px;
+   letter-spacing:1px;
+   color: rgb(255,0,0);
+   margin-top: 15px;
+}
+h2 {
+   font-weight: bold;
+   font-size:16px;
+   letter-spacing:1px;
+   color: rgb(255,0,0);
+   margin-top: 15px;
+}
+h3 {
+   font-weight: bold;
+   font-size:16px;
+   letter-spacing:1px;
+   color: rgb(255,0,0);
+   margin-top: 15px;
+}
+
+
+

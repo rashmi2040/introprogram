@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--
+		Himalayan Dental Clinic and Training Center
+         Author:Rashmi Aryal   
+         Date:7/26/2020
+		 Filename: ContactUs.htm
+         
+		 Supporting Files: free dentistry.jpg, main.css
+      -->
+      <meta charset="utf-8" />
+	  
+      <title>ContactUs</title>
+	  
+      <link href="Assets/Styles/main.css" rel="stylesheet" type="text/css">
+      
+   </head>
+   <body>
+		<header>
+			<img src="Assets/Images/freedentistry.jpg" alt="Healthy Mouth Happy Life"  width="800" height="550"/>
+		</header>
+		
+		<nav class="horizontal">
+			<ul>
+				<li><a href="Index.html">Home</a></li>
+				<li><a href="AboutUs.htm">About Us</a></li>
+				<li><a href="Staff.html">Our Staffs</a></li>
+				<li><a href="events.htm">Events</a></li>
+				<li><a href="ContactUs.htm">Contact Us</a></li>
+			</ul>	
+		</nav>
+			
+			
+	<section id="main">
+		<h1>Contact Us - Let Us Learn a little bit more about you!</h1>
+		<br/>
+		<form action="results.html">
+			<fieldset class="contactinfo">
+					
+						<label for="fnameinput">
+							First Name
+							<input type="text" id="fnameinput" name="First Name" required="required">
+						</label>
+						<label for="lnameinput">
+							Last Name
+							<input type="text" id="lnameinput" name="Last Name" required="required">
+						</label>
+						<label for="phoneinput">
+							Phone
+							<input type="tel" id="phoneinput" name="Phone" placeholder="(###) ###-####" 
+							pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$">
+						</label>
+						<label for="emailinput">
+							Email
+							<input type="email" id="emailinput" name="Email" placeholder="Example@gmail.com" 
+							required="required">
+						</label>
+			</fieldset>
+			<br/>
+			<fieldset class="additionalinfo">
+					<legend>Ask us anything!  </legend>
+						<label for="feedback">
+							
+							<textarea id="feedback" name="Feedback" rows="7">
+							</textarea>
+						</label>
+			</fieldset>
+			<br/>
+			<fieldset class="newsletter">
+					<legend>Would you like to subscribe to our newsletter?</legend>
+						<label for="yes">
+							<input type="checkbox" id="yes" value="newsletter">
+							Count me in!
+						</label>
+			</fieldset>
+			<fieldset class="submitbutton">
+					<input type="submit" id="submit" value="Submit">
+					<input value="Reset" type="reset">
+			</fieldset>
+		</form>
+		
+	</section>
+	
+		<footer>
+			
+				<address>
+				Himalayan Dental Clinic and Training Center&#183;
+				4601 Rainbow Trout &#183;
+				Saint Louis, MO 65203 &#183;
+				(314) 555 - 3737 &#183;
+				Himalayan@trainingschool.com
+            </address>
+        </footer>
+				
+	</body>
+
+
+
+
+
+
+
+
+
+</html>
